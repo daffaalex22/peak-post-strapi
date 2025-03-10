@@ -25,7 +25,14 @@ A multi-tenant blog CMS backend built with Strapi v5. Powers the [Peak Post Fron
 
 The API is deployed at:
 - Admin Panel: https://peak-post-strapi.onrender.com/admin
+> - **Email:** viewer@peakpost.com
+> - **Password:** Viewer12345
+
 - GraphQL Playground: https://peak-post-strapi.onrender.com/graphql
+
+## 🔄 Keep Service Alive
+
+To prevent cold starts, this project uses 🤖 GitHub Actions to periodically ping the service. The workflow sends a request every 5️⃣ minutes.
 
 ## 💻 Running Locally
 
